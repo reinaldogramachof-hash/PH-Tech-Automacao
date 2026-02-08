@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PH Tech - Automação Residencial e Corporativa</title>
+  
+  <meta name="description" content="PH Tech Automação: Transformando sua casa ou empresa com tecnologia inteligente." />
+  <meta name="theme-color" content="#0ea5e9" />
+  <link rel="manifest" href="./manifest.json" />
+
+  <script type="module" crossorigin src="./assets/index-Cx-b-MYM.js" fetchpriority="high"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BbltKf7S.css">
+  <link rel="preload" as="image" href="./hero-dashboard.jpg" fetchpriority="high">
+
+  <style>
+    /* 1. Reset & Clean Base */
+    :root { font-display: swap; scroll-behavior: smooth; }
+    body { 
+      margin: 0; 
+      background-color: #020617; 
+      color: #f8fafc;
+      -webkit-font-smoothing: antialiased; 
+    }
+
+    /* 2. Unificação de Espaçamentos (Remoção de Duplicidade) */
+    section {
+      padding: clamp(3rem, 10vh, 6rem) 1.5rem !important;
+      margin: 0 !important;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    }
+
+    /* 3. O Padrão "Clean Card" (Substitui múltiplos estilos repetidos) */
+    .glass-strong, .contact-card, [code-path*="ContactSection"] div > div > div {
+      background: rgba(15, 23, 42, 0.6) !important;
+      backdrop-filter: blur(16px) !important;
+      -webkit-backdrop-filter: blur(16px) !important;
+      border: 1px solid rgba(255, 255, 255, 0.08) !important;
+      border-radius: 1.25rem !important;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+      transition: all 0.3s ease !important;
+    }
+
+    /* 4. Hierarquia Visual do Hero */
+    .absolute.-top-4.-right-4, .absolute.-bottom-4.-left-4 {
+      z-index: 10;
+      padding: 1rem 1.5rem !important;
+    }
+
+    /* Ajuste do card "+3 anos" para não sobrecarregar a imagem */
+    .absolute.-bottom-6.-right-6 {
+      bottom: 0 !important;
+      right: 0 !important;
+      transform: translate(10%, 10%);
+    }
+
+    /* 5. Tipografia Limpa */
+    h1, h2, h3 {
+      letter-spacing: -0.02em !important;
+      line-height: 1.2 !important;
+      margin-bottom: 1rem !important;
+    }
+
+    p {
+      line-height: 1.6 !important;
+      color: #94a3b8 !important; /* Slate-400 para textos secundários */
+    }
+
+    /* 6. Botão WhatsApp (Minimalista) */
+    a[href*="wa.me"].fixed {
+      width: 56px !important;
+      height: 56px !important;
+      border-radius: 16px !important; /* Estilo moderno Squircle */
+      background: #22c55e !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      box-shadow: 0 10px 15px -3px rgba(34, 197, 94, 0.4) !important;
+    }
+
+    a[href*="wa.me"].fixed span { display: none !important; }
+
+    /* 7. Footer Organizado */
+    footer {
+      background: #020617 !important;
+      padding: 4rem 1.5rem 2rem !important;
+    }
+
+    footer a:hover {
+      color: #0ea5e9 !important;
+      padding-left: 4px; /* Feedback visual suave */
+    }
+
+    /* 8. Ajustes Mobile */
+    @media (max-width: 768px) {
+      .absolute {
+        position: relative !important;
+        inset: auto !important;
+        transform: none !important;
+        margin: 10px 0 !important;
+        width: 100% !important;
+      }
+      
+      h1 { font-size: 1.875rem !important; }
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>

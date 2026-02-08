@@ -1,0 +1,21 @@
+{
+  "name": "PH Tech - Automação Residencial e Corporativa",
+  "short_name": "PH Tech",
+  "description": "Soluções inteligentes em automação, som e segurança.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0ea5e9",
+  "icons": [
+    {
+      "src": "./hero-dashboard.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "./hero-dashboard.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
